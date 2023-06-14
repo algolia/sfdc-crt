@@ -1,0 +1,57 @@
+*** Comments ***
+This has been deliberately named with an invalid extension .nobot
+to avoid accidental execution
+Relative paths have been left in a broken state on purpose
+
+The test case was created for one time record creation in production environment
+and should not be used as is.
+
+*** Settings ***
+Library            QForce
+Library            ../resources/python/ImpersonationUtils.py
+Library            DataDriver    file=excel_test.xlsx
+#Library            DataDriver    reader_class=TestDataApi    name=excel_test_crt.xlsx
+
+
+Resource           ../resources/common/common.resource
+Resource           ../resources/common/error.resource
+Resource           ../resources/common/variables.resource
+Resource           ../resources/records/mass_opportunity.resource
+
+
+Suite Setup        SuiteSetupActions
+Suite Teardown     CloseAllBrowsers
+
+Test Template    CreateBaseOpportunity
+*** Variables ***
+${acc_url}        ${login_url}/lightning/r/Account/${common_account_id}/view
+
+*** Keywords ***
+Suite Setup Actions
+    SetConfig    DefaultTimeout    30s
+    OpenBrowser    about:blank    ${browser}
+    Login
+    ImpersonateWithUid    0053Z00000KYYdYQAX  #camilla brandt
+
+*** Test Cases ***
+Create base opp - ${Account}
+
+*** Keywords ***
+CreateBaseOpportunity
+    [Documentation]    Creates opportunities based on excel data, argument names must match the excel column header names (Opportunuity Name)
+    [Arguments]    ${account_id}    ${Opportunuity Name}    ${Amount}    ${Use Cases}    ${Contact Name}    ${Opportunity Owner}    ${APPid}
+    ${logged_out}=    IsText    Log In    timeout=2
+    IF    ${logged_out}
+        Login
+        VerifyText    Lightning Sales Console
+    END
+    ImpersonateWithUid    0053Z00000KYYdYQAX  #camilla brandt
+
+    CreateMassOpportunity
+    ...    ${account_id}
+    ...    opportunity_name=${Opportunuity Name}
+    ...    amount=${Amount}
+    ...    use_cases=${Use Cases}
+    ...    contact_name=${Contact Name}
+    ...    opportunity_owner=${Opportunity Owner}
+    ...    app_id=${APPid}

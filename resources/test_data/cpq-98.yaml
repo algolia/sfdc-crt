@@ -1,0 +1,52 @@
+v8_standard:
+  potential_plan: Standard Committed - V8
+  price_book: Algolia V8 Pricing
+
+  verify_ql_item: Standard (V8) (committed)
+  
+  bundle:
+    name: Algolia Plan Bundle
+    main_product:
+      name: Standard (V8) (committed)
+      quantity: '100000'
+      quantity2: '10000'
+    auto_products: []
+  discount_schedule:
+    Discount Schedule: Standard (V8) - Committed-USD - Cross Order
+
+  bundle2:
+    name: Algolia Plan Bundle
+    main_product:
+      name: Standard (V8) (committed)
+      quantity: '10000'
+    auto_products: []
+  discount_schedule2:
+    Discount Schedule: Standard (V8) - Committed-USD - Cross Order
+  
+  
+v85_elevate_ecomm:
+  potential_plan: Elevate Ecomm v8.5
+  price_book: Algolia v8.5 Elevate Ecomm Pricing
+  
+  verify_ql_item: Records
+  bundle:
+    name: Algolia Elevate Ecomm Bundle
+    main_product: Null
+    auto_products:
+      - name: Elevate Ecomm
+        quantity: '100000'
+      - name: Records
+        quantity: '25000'
+  discount_schedule:
+    Discount Schedule: Records - USD - Cross Order
+
+  bundle2:
+    name: Algolia Elevate Ecomm Bundle
+    main_product: Null
+    auto_products:
+      - name: Elevate Ecomm
+        quantity: '10000'
+      - name: Records
+        quantity: '2500'
+  discount_schedule2:
+    Discount Schedule: Records - USD - Cross Order

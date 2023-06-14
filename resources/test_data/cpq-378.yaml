@@ -1,0 +1,32 @@
+v8_standard:
+  potential_plan: Standard Committed - V8
+  price_book: Algolia V8 Pricing
+
+  bundle:
+    name: Algolia Plan Bundle
+    main_product:
+      name: Standard (V8) (committed)
+      quantity: '10000'
+    auto_products: []
+    add_ons:
+      - name: Core Foundation
+    services:
+      - name: Algolia Guided Onboarding
+    
+v85_elevate_ecomm:
+  potential_plan: Elevate Ecomm v8.5
+  price_book: Algolia v8.5 Elevate Ecomm Pricing
+
+  bundle:
+    name: Algolia Elevate Ecomm Bundle
+    main_product: Null
+    auto_products:
+      - name: Elevate Ecomm
+        quantity: '10000'
+      - name: Records
+        quantity: '2500'
+    add_ons:
+      - name: Core Foundation
+    services:
+      - name: Algolia Guided Onboarding
+  

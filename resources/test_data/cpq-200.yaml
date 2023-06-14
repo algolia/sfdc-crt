@@ -1,0 +1,66 @@
+v8_standard:
+  potential_plan: Standard Committed - V8
+  price_book: Algolia V8 Pricing
+  bundle: Algolia Plan Bundle
+  
+  products:
+    - Standard (V8) (committed)
+    - Standard Plus (V8) (committed) 
+    - Premium (V8) (committed) 
+    - Recommend (committed) 
+    - Analytics Extended Retention 
+    - Crawler 
+    - DSN 
+    - HIPAA/BAA 
+    - Single Tenancy + Vault 
+    - Enterprise Foundation 
+    - Platform Foundation 
+    - Premier Support 
+    - Core Foundation 
+    - Essential Foundation 
+    - Standard Support 
+    - Extended Support 
+    - Named Contact 
+    - Premier SLA 
+    - Algolia Pulse - Prepaid Services 
+    - Algolia Merchandising Accelerator - Prepaid Services 
+    - Algolia Guided Onboarding - Prepaid Services 
+    - Algolia Kickstart - Prepaid Services 
+    - Algolia Blueprint - Prepaid Services 
+    - Algolia Quick Start for Sending Events - Prepaid Services 
+    - Algolia Advisory 25 - Prepaid Services 
+    - Algolia Quick Start for Crawler - Prepaid Services 
+    - Algolia Quick Start for Shopify - Prepaid Service 
+    - Overage Recommend 
+  
+v85_elevate_ecomm:
+  potential_plan: Elevate Ecomm v8.5
+  price_book: Algolia v8.5 Elevate Ecomm Pricing
+  bundle: Algolia Elevate Ecomm Bundle
+  products:
+    - Elevate Ecomm
+    - Records
+    - Recommend
+    - Analytics Extended Retention 
+    - Crawler 
+    - HIPAA/BAA 
+    - Enterprise Foundation 
+    - Core Foundation 
+    - Essential Foundation 
+    - Standard Support 
+    - Extended Support 
+    - Named Contact 
+    - Algolia Pulse - Prepaid Services 
+    - Algolia Merchandising Accelerator - Prepaid Services 
+    - Algolia Guided Onboarding - Prepaid Services 
+    - Algolia Kickstart - Prepaid Services 
+    - Algolia Blueprint - Prepaid Services 
+    - Algolia Quick Start for Sending Events - Prepaid Services 
+    - Algolia Advisory 25 - Prepaid Services 
+    - Algolia Quick Start for Crawler - Prepaid Services 
+    - Algolia Quick Start for Shopify - Prepaid Service
+    - Algolia Platform Accelerator - Prepaid Services
+    - Algolia AEM Accelerator - Prepaid Services
+    - Overage Records V8.5
+    - Overage Elevate Ecomm
+    #- Overage Recommend V8.5 Ecomm

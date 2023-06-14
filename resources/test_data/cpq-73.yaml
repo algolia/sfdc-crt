@@ -1,0 +1,41 @@
+v8_standard:
+  standard_doc:
+    potential_plan: Standard Committed - V8
+    price_book: Algolia V8 Pricing
+    bundle:
+      name: Algolia Plan Bundle
+      main_product:
+        name: Standard (V8) (committed)
+        quantity: '1'
+      auto_products: []
+      subscription_term: '12'
+    template_name: Standard Quote Doc V2
+  
+  standard_pab_doc:
+    potential_plan: Standard Committed - V8
+    price_book: Algolia V8 Pricing
+    bundle:
+      name: Premium Adoption Bundle
+      main_product: Null
+      auto_products: []
+      subscription_term: '6'
+    template_name: Standard PAB Quote Doc V2
+
+
+v85_elevate_ecomm:
+  standard_doc:
+    potential_plan: Elevate Ecomm v8.5
+    price_book: Algolia v8.5 Elevate Ecomm Pricing
+    bundle:
+      name: Algolia Elevate Ecomm Bundle
+      main_product: Null
+      auto_products:
+      - name: Elevate Ecomm
+        quantity: '4'
+      - name: Records
+        quantity: '1'
+      subscription_term: '12'
+    template_name: Standard Quote Doc V2
+  
+  # Elevate Ecomm has no Premium Adoption Bundle
+  # standard_pab_doc:

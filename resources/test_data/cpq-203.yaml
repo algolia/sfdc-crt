@@ -1,0 +1,138 @@
+v8_standard:
+  potential_plan: Standard Committed - V8
+  price_book: Algolia V8 Pricing
+  bundle:
+    name: Algolia Plan Bundle
+    main_product:
+      name: Standard (V8) (committed)
+      quantity: '10000'
+    auto_products: []
+    services:
+      - name: Algolia Pulse - Prepaid Services
+      - name: Algolia Blueprint - Prepaid Services
+      - name: Algolia Kickstart - Prepaid Services
+
+  item_editable:
+    Algolia Plan Bundle: False
+    Standard (V8) (committed): True
+    Algolia Pulse - Prepaid Services: False
+    Algolia Blueprint - Prepaid Services: False
+    Algolia Kickstart - Prepaid Services: False
+
+  common_additional_discount: true
+  discount_items:
+    - Standard (V8) (committed)
+  add_disc_50:
+    calc_verify: USD 27,275.00
+    customer_totals:
+      - USD 3,275.00
+      - USD 5,000.00
+      - USD 9,500.00
+      - USD 9,500.00
+    net_totals: []
+  part_disc_20:
+    calc_verify: USD 29,240.00
+    customer_totals:
+      - USD 6,550.00
+      - USD 5,000.00
+      - USD 9,500.00
+      - USD 9,500.00
+    net_totals: 
+      - USD 5,240.00
+      - USD 5,000.00
+      - USD 9,500.00
+      - USD 9,500.00
+    
+  discs_0:
+    calc_verify: USD 30,550.00
+    customer_totals:
+      - USD 6,550.00
+      - USD 5,000.00
+      - USD 9,500.00
+      - USD 9,500.00
+    net_totals: 
+      - USD 6,550.00
+      - USD 5,000.00
+      - USD 9,500.00
+      - USD 9,500.00
+
+  additional_row_discount_percent: 38.93130 %
+  additional_total_discount_percent: 8.35%
+  additional_discount_rows:
+    - 2
+  error_message: You are not able to sell over List price, please adjust your discounts.
+  
+v85_elevate_ecomm:
+  potential_plan: Elevate Ecomm v8.5
+  price_book: Algolia v8.5 Elevate Ecomm Pricing
+  bundle:
+    name: Algolia Elevate Ecomm Bundle
+    main_product: Null
+    auto_products:
+      - name: Elevate Ecomm
+        quantity: '10000'
+      - name: Records
+        quantity: '2500'
+    services:
+      - name: Algolia Pulse - Prepaid Services
+      - name: Algolia Blueprint - Prepaid Services
+      - name: Algolia Kickstart - Prepaid Services
+
+
+  item_editable:
+    Algolia Elevate Ecomm Bundle: False
+    ALG-V8.5-BASE-ELEECM: True  # use product code due to 2x Elevate Ecomm text
+    Records: True
+    Algolia Pulse - Prepaid Services: False
+    Algolia Blueprint - Prepaid Services: False
+    Algolia Kickstart - Prepaid Services: False
+
+  common_additional_discount: false
+  discount_items:
+    - ALG-V8.5-BASE-ELEECM
+    - Records
+  add_disc_50: # does nothing for elevate ecomm prods
+    calc_verify: USD 38,662.50
+    customer_totals:
+      - USD 9,262.50
+      - USD 5,400.00
+      - USD 9,500.00
+      - USD 9,500.00
+      - USD 5,000.00
+    net_totals: []
+  part_disc_20:
+    calc_verify: USD 47,460.00
+    customer_totals:
+      - USD 18,525.00
+      - USD 10,800.00
+      - USD 9,500.00
+      - USD 9,500.00
+      - USD 5,000.00
+    net_totals: 
+      - USD 14,820.00
+      - USD 8,640.00
+      - USD 9,500.00
+      - USD 9,500.00
+      - USD 5,000.00
+    
+  discs_0:
+    calc_verify: USD 53,325.00
+    customer_totals:
+      - USD 18,525.00
+      - USD 10,800.00
+      - USD 9,500.00
+      - USD 9,500.00
+      - USD 5,000.00
+    net_totals: 
+      - USD 18,525.00
+      - USD 10,800.00
+      - USD 9,500.00
+      - USD 9,500.00
+      - USD 5,000.00
+
+  additional_row_discount_percent: 86.35976 %
+  additional_total_discount_percent: 47.49%
+  additional_discount_rows:
+    - 2
+    - 3
+  error_message: Only a One Time Discount of up to 20% is allowed.

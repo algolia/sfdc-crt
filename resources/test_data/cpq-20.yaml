@@ -1,0 +1,61 @@
+v8_standard:
+  potential_plan: Standard Committed - V8
+  price_book: Algolia V8 Pricing
+  bundle:
+    name: Algolia Plan Bundle
+    start_total: USD 12,000.00
+    end_total: USD 18,550.00
+    line_item_count: 3
+    opportunity_line_item_fields:
+      Quantity: '1.00'
+      List Price: 'USD 0.00'
+      Total Price: 'USD 0.00'
+    main_product:
+      name: Standard (V8) (committed)
+      quantity: '10000'
+      opportunity_line_item_fields:
+        Quantity: '1.00'
+        List Price: 'USD 1.00'
+        Total Price: 'USD 6,550.00'
+    auto_products: []
+    add_ons:
+      - name: Core Foundation
+        opportunity_line_item_fields:
+          Quantity: '1.00'
+          List Price: 'USD 12,000.00'
+          Total Price: 'USD 12,000.00'
+  opportunity_tcv: USD 18,550.00
+  
+v85_elevate_ecomm:
+  potential_plan: Elevate Ecomm v8.5
+  price_book: Algolia v8.5 Elevate Ecomm Pricing
+  bundle:
+    name: Algolia Elevate Ecomm Bundle
+    start_total: USD 12,006.27
+    end_total: USD 118,650.00
+    line_item_count: 4
+    opportunity_line_item_fields:
+      Quantity: '1.00'
+      List Price: 'USD 0.00'
+      Total Price: 'USD 0.00'
+    main_product: Null
+    auto_products:
+      - name: Elevate Ecomm
+        quantity: '40000'
+        opportunity_line_item_fields:
+          Quantity: '1.00'
+          List Price: 'USD 1.95'
+          Total Price: 'USD 68,250.00'
+      - name: Records
+        quantity: '10000'
+        opportunity_line_item_fields:
+          Quantity: '1.00'
+          List Price: 'USD 4.80'
+          Total Price: 'USD 38,400.00'
+    add_ons:
+      - name: Core Foundation
+        opportunity_line_item_fields:
+          Quantity: '1.00'
+          List Price: 'USD 12,000.00'
+          Total Price: 'USD 12,000.00'
+  opportunity_tcv: USD 118,650.00

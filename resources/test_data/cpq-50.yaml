@@ -1,0 +1,56 @@
+v8_standard:
+  potential_plan: Standard Committed - V8
+  price_book: Algolia V8 Pricing
+  bundle:
+    name: Algolia Plan Bundle
+    main_product:
+      name: Standard (V8) (committed)
+      quantity: '10000'
+    auto_products: []
+    add_ons:
+      - name: Core Foundation
+
+  list_unit_prices:
+    - USD 1.00000
+  # net totals
+  start:
+    - USD 6,550.00
+    - USD 12,000.00
+  subscription_term:
+    - USD 9,825.00
+    - USD 18,000.00
+  end_date:
+    - USD 13,100.00
+    - USD 24,000.00
+
+
+v85_elevate_ecomm:
+  potential_plan: Elevate Ecomm v8.5
+  price_book: Algolia v8.5 Elevate Ecomm Pricing
+  bundle:
+    name: Algolia Elevate Ecomm Bundle
+    main_product: Null
+    auto_products:
+      - name: Elevate Ecomm
+        quantity: '10000'
+      - name: Records
+        quantity: '2500'
+    add_ons:
+      - name: Core Foundation
+
+  list_unit_prices:
+    - USD 1.95000
+    - USD 4.80000
+  # net totals
+  start:
+    - USD 18,525.00
+    - USD 10,800.00
+    - USD 12,000.00
+  subscription_term:
+    - USD 27,787.50
+    - USD 16,200.00
+    - USD 18,000.00
+  end_date:
+    - USD 37,050.00
+    - USD 21,600.00
+    - USD 24,000.00

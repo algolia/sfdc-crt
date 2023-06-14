@@ -1,0 +1,27 @@
+v8_standard:
+  potential_plan: Standard Committed - V8
+  price_book: Algolia V8 Pricing
+
+  overage_item: Standard (V8) (committed)
+  overage_value: USD 1.00
+  
+  bundle:
+    name: Algolia Plan Bundle
+    main_product:
+      name: Standard (V8) (committed)
+    auto_products: []
+  
+  
+v85_elevate_ecomm:
+  potential_plan: Elevate Ecomm v8.5
+  price_book: Algolia v8.5 Elevate Ecomm Pricing
+  
+  overage_item: Records
+  overage_value: USD 1.95
+
+  bundle:
+    name: Algolia Elevate Ecomm Bundle
+    main_product: Null
+    auto_products:
+      - name: Elevate Ecomm
+      - name: Records

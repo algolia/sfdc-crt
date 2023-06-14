@@ -1,0 +1,11 @@
+v8_standard:
+  potential_plan: Standard Committed - V8
+  price_book: Algolia V8 Pricing
+  bundle: Algolia Plan Bundle
+  premier_support: True
+  
+v85_elevate_ecomm:
+  potential_plan: Elevate Ecomm v8.5
+  price_book: Algolia v8.5 Elevate Ecomm Pricing
+  bundle: Algolia Elevate Ecomm Bundle
+  premier_support: False

@@ -1,0 +1,72 @@
+v8_standard:
+  potential_plan: Standard Committed - V8
+  price_book: Algolia V8 Pricing
+
+  bundle:
+    name: Algolia Plan Bundle
+    main_product:
+      name: Standard (V8) (committed)
+      quantity: '10000'
+      quote_line_item_fields:
+        List Unit Price: USD 1.07
+        Net Total: USD 7,008.50
+    auto_products: []
+
+  line_item_count: 3
+  line_items:
+    - Algolia Plan Bundle
+    - Standard (V8) (committed)
+    - Overage Search Standard
+
+  amend_items:
+    - name: Standard (V8) (committed)
+      list_total_1: USD 0.00
+      list_total_2: USD - 10,000.00
+      list_total_3: USD 10,000.00
+      quantity_2: '0'
+      quantity_3: '20000'
+  amend_totals:
+    - USD - 6,550.00
+    - USD 4,500.00
+  
+v85_elevate_ecomm:
+  potential_plan: Elevate Ecomm v8.5
+  price_book: Algolia v8.5 Elevate Ecomm Pricing
+
+  bundle:
+    name: Algolia Elevate Ecomm Bundle
+    main_product: Null
+    auto_products:
+      - name: Elevate Ecomm
+        quantity: '10000'
+        quote_line_item_fields:
+          List Unit Price: USD 2.09
+          Net Total: USD 19,821.75
+      - name: Records
+        quantity: '2500'
+
+  line_item_count: 5
+  line_items:
+    - Algolia Elevate Ecomm Bundle
+    - Elevate Ecomm
+    - Records
+    - Overage  #Records V8.5
+    - Overage  #Elevate Ecomm
+
+  amend_items:
+    - name: Elevate Ecomm
+      list_total_1: USD 0.00
+      list_total_2: USD - 19,500.00
+      list_total_3: USD 19,500.00
+      quantity_2: '0'
+      quantity_3: '20000'
+    - name: Records
+      list_total_1: USD 0.00
+      list_total_2: USD - 12,000.00
+      list_total_3: USD 12,000.00
+      quantity_2: '0'
+      quantity_3: '5000'
+
+  amend_totals:
+    - USD - 29,325.00
+    - USD 28,350.00
