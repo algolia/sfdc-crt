@@ -58,10 +58,12 @@ Create Account
     # Occasionally account creation hangs and fails after few minutes with msg:
     #     "Review the errors on this page."
     ${click_kwargs}=    Evaluate    {'anchor':'Cancel', 'partial_match':False, 'timeout':150}
+    ${wait_kwargs}=    Evaluate    {'timeout':150}
     ClickTextAndRetryOnLockRowError
     ...    text_to_click=Save
     ...    text_to_wait=New Opportunity
     ...    click_kwargs=${click_kwargs}
+    ...    wait_kwargs=${wait_kwargs}
 
     ${url}=    Get Url
     [Return]    ${url}
